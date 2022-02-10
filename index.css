@@ -1,0 +1,75 @@
+.container {
+  background-image: url(bg-pattern-top.svg);
+  background-repeat: no-repeat;
+  background-position: 500% 100%;
+  background-color: hsl(185, 75%, 39%);
+  width: 375px;
+  margin: 40px auto;
+  padding: 50px 0;
+}
+.content {
+  background-color: white;
+  color: hsl(0, 0%, 59%);
+  width: 80%;
+  margin: 80px auto;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+  font-family: "Kumbh Sans", sans-serif;
+}
+.image {
+  border-radius: 10px 10px 0 0;
+  background-image: url(bg-pattern-card.svg);
+  width: 100%;
+  height: 130px;
+  margin-bottom: 40px;
+}
+.profile {
+  margin-bottom: 40px;
+  font-weight: 400;
+}
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 5px solid transparent;
+  background-color: white;
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+.profile p {
+  margin-top: 5px;
+  font-size: 0.9em;
+}
+.profile b {
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+}
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  font-weight: 400;
+}
+.tabs h2 {
+  color: hsl(229, 23%, 23%);
+  margin-bottom: -5px;
+  font-size: 1em;
+  font-weight: 700;
+  font-weight: bolder;
+}
+hr {
+  width: 98%;
+}
+.tabs p {
+  font-size: 0.6em;
+}
+
+@media (min-width: 960px) {
+  .container {
+    width: 1445px;
+  }
+  .content {
+    width: 20%;
+  }
+}
